@@ -50,7 +50,7 @@ class IniciarSesionActivity : AppCompatActivity() {
             startActivity(intent)
         }
         txtOlvidastePass.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, OlvideContrasenaActivity::class.java)
             startActivity(intent)
         }
         btnIniciarSesion.setOnClickListener {

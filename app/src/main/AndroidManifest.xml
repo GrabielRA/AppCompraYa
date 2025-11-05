@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppMovilesProy">
         <activity
+            android:name=".CodigoVerificadoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VerificacionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OlvideContrasenaActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
